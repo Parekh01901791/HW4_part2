@@ -1,3 +1,13 @@
+// File: script.js
+// GUI Assignment: Use JQuery Validation to error handle inputs within out webage
+// Mihir Parekh, UMass Lowell Computer Science, Mihir_Parekh@student.uml.edu
+// Copyright (c) 2023 by Mihir. All rights reserved. May be freely copied or
+// excerpted for educational purposes with credit to the author.
+// updated by MP on December, 2023 at 11:30 PM
+// Description: Added jquery UI sliders, and tabs everytime valid input is enterd and submitted,
+// it is stored as a new tab with the title of the tab as the input. I didn't get to finish the rest
+// like deleting tabs and have the sliders dynamically move the table but this is what I got. 
+
 $(document).ready(function () {
 
           // Initialize sliders
@@ -124,7 +134,7 @@ $(document).ready(function () {
     $("#tabs").tabs();
 
 
-    
+
     $("#valueForm").submit(function (event) {
         event.preventDefault();
         generateTable();
