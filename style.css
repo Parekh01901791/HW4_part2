@@ -1,0 +1,38 @@
+  #display table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #display th, #display td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+  }
+
+
+#scroll_container {
+  max-height: 600px; 
+  overflow-y: auto;
+}
+
+#display table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#display th, #display td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+#display th:first-child,
+#display td:first-child {
+  background-color: #2ecc71; 
+  color: black;
+}
+
+#display th {
+  background-color:  #2ecc71;
+  color: black;
+}
